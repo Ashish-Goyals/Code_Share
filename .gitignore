@@ -1,0 +1,85 @@
+# ======================
+# Node Modules
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Build / Production
+# ======================
+dist/
+build/
+.out/
+.next/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Cache
+# ======================
+.cache/
+.parcel-cache/
+vite.svg
+
+# ======================
+# Coverage
+# ======================
+coverage/
+
+# ======================
+# Temporary Files
+# ======================
+tmp/
+temp/
+
+# ======================
+# Docker
+# ======================
+docker-compose.override.yml
+
+# ======================
+# MongoDB / Database
+# ======================
+*.db
+*.sqlite
+
+# ======================
+# Uploads / User Files
+# ======================
+uploads/
+public/uploads/
+
+# ======================
+# Misc
+# ======================
+*.pid
+*.seed
+*.tgz
